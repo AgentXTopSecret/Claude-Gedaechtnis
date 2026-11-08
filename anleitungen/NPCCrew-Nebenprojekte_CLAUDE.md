@@ -43,7 +43,7 @@ wahrscheinlich recht -- Screenshots mit roten Kreisen sind praezises Feedback.
 
 | Was | Pfad |
 |---|---|
-| Diese Werkstatt | `C:\Users\Kevin\NPCCrew-Nebenprojekte` (`turret\`, `zweihaender\`, spaeter `baer\`; Arbeitsdaten `_arbeit\`) |
+| Diese Werkstatt | `C:\Users\Kevin\NPCCrew-Nebenprojekte` (`turret\`, `zweihaender\`, `baer\`; Arbeitsdaten `_arbeit\`) |
 | Test-Mods (laedt das Spiel) | `C:\Users\Kevin\Zomboid\mods\NCTurretTest`, `...\NCZweihaender`, `...\NCBearTest` |
 | NPC Crew (NUR LESEN) | `C:\Users\Kevin\Zomboid\mods\NPCCrew` -- Code `42\media\lua`, Landkarte `_docs\landkarte_index.txt` (greppen), Lehren `CLAUDE.md` (gross; nur den Abschnitt lesen, den du brauchst) |
 | Vanilla-Lua (NUR LESEN) | `C:\Program Files (x86)\Steam\steamapps\common\ProjectZomboid\media` (+ `projectzomboid.jar` daneben) |
@@ -107,7 +107,8 @@ Kevin fuehrt je Nebenprojekt eine eigene Claude-Sitzung (Turret, Zweihaender, sp
   `turret_backup.py`). Uebernahme-Skript am 08.11. nachgeruestet: Cheat-Pruefung (bricht ab, `--vor-t10` nur Warnung bis T9) und
   Pluenderer-Naht als erlaubte Fundstelle; Trockenlauf absichtlich rot mit 2 T1-Platzhaltern des Spawn-Wegs, die T3 ersetzt (NAEHTE.md
   'Erlaubte Fundstellen'). **T2 (Figur am Turret) ist geplant: `turret\T2_plan.md`** (T2a Sonde mit 7 Agenten, dann T2b Schuss mit 6;
-  K1-K10 in Abschnitt 0.2 am 08.11. entschieden: "Ja, alle so"; naechster Lauf: Bau T2a). Spaeter, auf Kevins Wort: Groesse MK I < MK II < MK III
+  K1-K10 in Abschnitt 0.2 am 08.11. entschieden: "Ja, alle so"). **T2a gebaut und in der Test-Mod (08.11. 19:05), ungespielt**:
+  Kevins Test nach `turret\T2a_integrator.md` (Abschnitt Testanleitung, braucht NPC Crew UND die Test-Mod aktiv); T2b erst nach seinem "weiter". Spaeter, auf Kevins Wort: Groesse MK I < MK II < MK III
   (KEVIN_ENTSCHEIDUNGEN.md unten).
 - **Zweihaender** (`zweihaender\`, Test-Mod `NCZweihaender`): fertig nach Kevins Foto (Umriss 93 %), **gespielt 08.11.2026
   im SP: laedt ohne Fehler, sieht aus und fuehlt sich an wie jede andere Waffe (Kevin)**. Quelle
@@ -143,8 +144,7 @@ Kevin fuehrt je Nebenprojekt eine eigene Claude-Sitzung (Turret, Zweihaender, sp
 - **Ruestung** (`ruestung\`): Kevin will Ritterruestung fuer Spieler und NPCs, Schild, Stich-Angriff. Entscheidungen und Belege
   `ruestung\KEVIN_ENTSCHEIDUNGEN.md`, Vorlage `ruestung\referenz\` (Stockbild, nur ansehen). **Reihenfolge (Kevin 08.11.):
   1. Crew Backpack, 2. Helm, 3. Schwertkampf** (Einhandschwert + Schild mit Blocken, eigene Zweihaender-Bewegungen nur fuer NPCs).
-- **Baer** (Test-Mod `NCBearTest`): wird noch in der NPC-Crew-Sitzung gebaut (Lauf 'baer-anim' laeuft am 08.11.) und zieht
-  danach hierher um (`baer\`). Bis dahin NICHTS an `NCBearTest` aendern.
+- **Baer** (Test-Mod `NCBearTest`): **seit 08.11. ~18:00 HIER** (`baer\`, Arbeitsdaten `_arbeit\baer_*`, 3,6 GB). Lauf baer-anim fertig und in NCBearTest kopiert, ungespielt. **Zuerst `baer\STAND.md`** (alles Offene in Reihenfolge: Kevins Test und Wahl Sitzen a/b, Aufrichten neu, baer-fell, B1 Wachsen/Umbenennen/Bench/Uebernahme-Skript, Biss der Zombies, Befehle, Beduerfnisse, Inventar, Fischen, MP), dann `baer\begleiter\ENTSCHEIDUNGEN.md` (geht vor PLAN.md). Git: `baer\` -> NPCCrew-Baer `unterlagen`, NCBearTest -> `main` (beide hochgeladen 08.11.). Sicherung vor dem Umzug `Zomboid\backups\NCBearTest\baer_docs_2026-11-08_175312.zip`.
 
 ## 8. Technik, die hier schon bezahlt wurde
 - PZ-Modelle: `MaleBody.x` 0,98 Einheiten = 1,8 m (0,544 Einheiten je Meter). FBX ueber Assimp: Spiel-Einheiten = rohe Punkte x
@@ -179,6 +179,11 @@ in jedem der beiden Ordner landet am richtigen Zweig). Nie auf einen fremden Zwe
 | Turret | `turret/` | `Zomboid/mods/NCTurretTest` -> `Zomboid/backups/NCTurretTest/repo.git` |
 | Zweihaender | `zweihaender/` | `Zomboid/mods/NCZweihaender` -> `Zomboid/backups/NCZweihaender/repo.git` |
 | Baer (nach dem Umzug) | `baer/` | `Zomboid/mods/NCBearTest` -> `Zomboid/backups/NCBearTest/repo.git` |
+| Crew Backpack (im Repo NPCCrew-Zweihaender) | `rucksack/` -> Zweig `rucksack-unterlagen` | `Zomboid/mods/NCCrewBackpackTest` -> `Zomboid/backups/NCCrewBackpackTest/repo.git`, Zweig `rucksack-testmod` |
+
+- **Modelle teilen sich das Zweihaender-Repo** (Kevin 08.11.: *"ne das kann ja bei den schwert dazu das ist ja quasi die kategorie
+  models erstellen"*): Modell-Projekte (Rucksack, spaeter Ruestung/Helm) bekommen eigene Zweige in `NPCCrew-Zweihaender`
+  (`<thema>-unterlagen`, `<thema>-testmod`). Fremde Vorlagebilder (z. B. `ruestung/referenz/`, Stockbild) nicht mit hochladen.
 - Je Repo `.gitattributes` mit `* -text` (Git schreibt keine Zeilenenden um) und `core.autocrlf false` -- nicht aendern.
 - **Committen tut die Sitzung selbst** (hier gibt es keinen Sicherungs-Waechter wie bei NPC Crew): nach jeder fertigen Version
   bzw. jedem fertigen Lauf ein Commit je betroffenem Repo, Meldung kurz auf Deutsch (ASCII), was und warum, und DANACH `git push`;
