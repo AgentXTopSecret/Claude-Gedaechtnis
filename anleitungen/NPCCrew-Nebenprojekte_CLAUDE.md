@@ -100,7 +100,8 @@ Kevin fuehrt je Nebenprojekt eine eigene Claude-Sitzung (Turret, Zweihaender, sp
 - Nie von Hand in NPC Crews git committen; NPC Crew nicht anfassen.
 
 ## 7. Stand der Projekte (08.11.2026)
-- **Turret** (`turret\`, Test-Mod `NCTurretTest`): T1 und T1b fertig und gespielt (dreht, schiesst, hunderte Zombies fluessig,
+- **Turret** (`turret\`, Test-Mod `NCTurretTest`): **Zuerst `turret\STAND.md`** (Uebergabe: was als Naechstes, was offen,
+  Kontingent). T1 und T1b fertig und gespielt (dreht, schiesst, hunderte Zombies fluessig,
   Schweben behoben, Rauch, Reichweiten MK I 15 / MK II 30 / MK III 60). Plan `turret\PLAN.md` (T1..T10, am Ende Kevins neue
   Entscheidungen und die Umzugsnotiz), alle Entscheidungen `turret\KEVIN_ENTSCHEIDUNGEN.md`, Naehte `turret\NAEHTE.md`, Modelle und
   Blender-Skripte `turret\modell\`, Werkzeuge `turret\tools\` (`turret_uebernahme.py`, `turret_uebernahme_probe.py`,
@@ -108,7 +109,8 @@ Kevin fuehrt je Nebenprojekt eine eigene Claude-Sitzung (Turret, Zweihaender, sp
   Pluenderer-Naht als erlaubte Fundstelle; Trockenlauf absichtlich rot mit 2 T1-Platzhaltern des Spawn-Wegs, die T3 ersetzt (NAEHTE.md
   'Erlaubte Fundstellen'). **T2 (Figur am Turret) ist geplant: `turret\T2_plan.md`** (T2a Sonde mit 7 Agenten, dann T2b Schuss mit 6;
   K1-K10 in Abschnitt 0.2 am 08.11. entschieden: "Ja, alle so"). **T2a gebaut und in der Test-Mod (08.11. 19:05), ungespielt**:
-  Kevins Test nach `turret\T2a_integrator.md` (Abschnitt Testanleitung, braucht NPC Crew UND die Test-Mod aktiv); T2b erst nach seinem "weiter". Spaeter, auf Kevins Wort: Groesse MK I < MK II < MK III
+  Kevins Test nach `turret\T2a_test_fuer_kevin.md` (braucht NPC Crew UND die Test-Mod aktiv; erst nach dem laufenden NPC-Crew-Bau,
+  vorher Naehte gegen den neuen Stand pruefen); T2b erst nach seinem "weiter". Spaeter, auf Kevins Wort: Groesse MK I < MK II < MK III
   (KEVIN_ENTSCHEIDUNGEN.md unten).
 - **Zweihaender** (`zweihaender\`, Test-Mod `NCZweihaender`): fertig nach Kevins Foto (Umriss 93 %), **gespielt 08.11.2026
   im SP: laedt ohne Fehler, sieht aus und fuehlt sich an wie jede andere Waffe (Kevin)**. Quelle
@@ -141,8 +143,8 @@ Kevin fuehrt je Nebenprojekt eine eigene Claude-Sitzung (Turret, Zweihaender, sp
   `backups\NCCrewBackpackTest\`. Git: im Repo NPCCrew-Zweihaender, Zweige `rucksack-unterlagen` / `rucksack-testmod` (hochgeladen
   08.11.; Tabelle Abschnitt 9). **SP-1 gespielt 08.11. ~23:10: beide laden und sitzen sichtbar auf dem Ruecken, Aufnaeher lesbar,
   Scavenger-Kopf ok; Mangel: Luecke Ruecken-Rucksack bei beiden** (Ergebnisse `rucksack\SPIELTEST.md`). Luecke 08.11. 23:20
-  behoben fuer Commando M/F und Scavenger F (in der Test-Mod, ungespielt); Scavenger M bleibt (Gestell kaeme in den Kopf; naeher nur
-  mit kuerzerem Gestell). Offen nach SP-1: C-Gestell streift beim
+  behoben fuer Commando M/F; Scavenger M/F 23:28 per `anschmiegen()` (der Sack hing hinter dem Gestell, Kopf unveraendert) -- alles in
+  der Test-Mod, ungespielt. Offen nach SP-1: C-Gestell streift beim
   Rennen den Hinterkopf (bis ~3 cm), kein Hand-Modell (ReplaceInPrimaryHand), Rueckenwaffe steckt ohne AttachmentReplacement im
   Rucksack, Tooltip-Naht (eigener Schluessel fuer C?), breiter als Vanilla (0,29/0,32 statt 0,25).
 - **Ruestung** (`ruestung\`): Kevin will Ritterruestung fuer Spieler und NPCs, Schild, Stich-Angriff. Entscheidungen und Belege
