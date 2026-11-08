@@ -103,16 +103,39 @@ Kevin fuehrt je Nebenprojekt eine eigene Claude-Sitzung (Turret, Zweihaender, sp
 - **Turret** (`turret\`, Test-Mod `NCTurretTest`): T1 und T1b fertig und gespielt (dreht, schiesst, hunderte Zombies fluessig,
   Schweben behoben, Rauch, Reichweiten MK I 15 / MK II 30 / MK III 60). Plan `turret\PLAN.md` (T1..T10, am Ende Kevins neue
   Entscheidungen und die Umzugsnotiz), alle Entscheidungen `turret\KEVIN_ENTSCHEIDUNGEN.md`, Naehte `turret\NAEHTE.md`, Modelle und
-  Blender-Skripte `turret\modell\`, Werkzeuge `turret\tools\` (`turret_uebernahme.py`, `turret_backup.py`). **Naechster Schritt T2
-  (Figur am Turret)**, vorher im Uebernahme-Skript: Cheat-Pruefung einbauen und die Pluenderer-Naht (`SR.LootTypeRefused` nennt
-  `NCTurret`) als erlaubte Fundstelle eintragen (PLAN.md 'Umzug').
+  Blender-Skripte `turret\modell\`, Werkzeuge `turret\tools\` (`turret_uebernahme.py`, `turret_uebernahme_probe.py`,
+  `turret_backup.py`). Uebernahme-Skript am 08.11. nachgeruestet: Cheat-Pruefung (bricht ab, `--vor-t10` nur Warnung bis T9) und
+  Pluenderer-Naht als erlaubte Fundstelle; Trockenlauf absichtlich rot mit 2 T1-Platzhaltern des Spawn-Wegs, die T3 ersetzt (NAEHTE.md
+  'Erlaubte Fundstellen'). **Naechster Schritt T2 (Figur am Turret).** Spaeter, auf Kevins Wort: Groesse MK I < MK II < MK III
+  (KEVIN_ENTSCHEIDUNGEN.md unten).
 - **Zweihaender** (`zweihaender\`, Test-Mod `NCZweihaender`): fertig nach Kevins Foto (Umriss 93 %), **gespielt 08.11.2026
   im SP: laedt ohne Fehler, sieht aus und fuehlt sich an wie jede andere Waffe (Kevin)**. Quelle
   `zweihaender\zweihaender.py` (schreibt FBX und Textur), Vergleich `vergleich.py`. Skript `module NCSword`, Modell
   `NCZweihaender` (Prop2 wie Katana); das Modell muss in `module Base` bleiben (`WeaponSprite` ohne Punkt sucht laut Jar immer
   in Base). Icon, Item-Skript, Lua und mod.info gibt es nur in der Test-Mod (keine Quelle hier). `NCZweihaender.lua` ist nur
-  Testhilfe (Rechtsklick-Spawn im SP) und darf nie mit nach NPC Crew. Uebernahme-Skript fehlt noch; dabei offen: Texte nur als
-  englischer `DisplayName` (statt `ItemName` in sieben Sprachen), Testhilfe noch nicht als `*Bench*` benannt.
+  Testhilfe (Rechtsklick-Spawn im SP) und darf nie mit nach NPC Crew (das Uebernahme-Skript fuehrt sie ausdruecklich als Bench).
+  **Uebernahme-Skript fertig 08.11.** `zweihaender\tools\zweihaender_uebernahme.py` (Trockenlauf und Probe OK, `--echt` nie gelaufen),
+  Naehte `zweihaender\NAEHTE.md`, Bericht `zweihaender\UEBERNAHME_bericht.md`. Namen in sieben Sprachen als
+  `Translate\<L>\ItemName.json` (Schluessel `NCSword.Zweihaender`, ersetzt laut Jar den `DisplayName`), Vorlage `zweihaender\mod_neu\`,
+  seit 08.11. ~14:42 auch in der Test-Mod (ungespielt). Offen: wie ein Spieler in NPC Crew an das Schwert kommt (kein Rezept, kein
+  Fundort -- Kevins Wort); Bandits nicht auf Namen geprueft; kleine Restbefunde im Bericht. **Naht zum Crew Backpack:** NPC Crew hat noch
+  keine `ItemName.json`; wer nach dem anderen kommt, fuehrt sortiert zusammen und legt NIE neu an (der Backpack-Plan
+  `04_crew_rucksack.md:189` sagt noch "neu").
+- **Crew Backpack** (`rucksack\`, noch keine Test-Mod): Plan in NPC Crew `_docs\bauplaene_2026-10-16\04_crew_rucksack.md` (Gegenstand
+  `NPCCrew.CrewBackpack`, nur NPCs, +100 Traglast, Rezept Schneider-Station). Kevin 08.11.: eigenes Modell mit Aufschrift "CREW
+  BACKPACK", soll cool aussehen und viel Platz haben; drei Entwuerfe A Expedition / B Kommando (sein Favorit nach der Skizze) /
+  C Crew-Bastler in `rucksack\entwurf_a|b|c\`, gemeinsames Render-Studio `rucksack\werkzeug\studio.py` (OPTIX, bricht ab, wenn PZ laeuft).
+  Entwuerfe fertig gerendert 08.11. ~14:52 (Vergleich `rucksack\vergleich_alle.png`). Es sind Schaumodelle
+  (100k-850k Dreiecke, kein UV, keine Haut am Skelett). Bekannte Schwaeche B: Ponchorolle liegt lose vor dem Rucksack.
+  **Kevin 08.11.: "Ja, beide bauen"** -- B und C werden zwei Gegenstaende mit gleichen Werten und zwei Rezepten an der
+  Schneider-Station (Auswahl ueber das Rezept-Icon, das die Station schon zeigt, `BanditsNPCDialogWindow.lua:3214`); kein
+  Umnaehen zwischen den Optiken (Inhalt umpacken = Verlustgefahr). Namen: `NPCCrew.CrewBackpack` = B "Crew Backpack (Commando)",
+  `NPCCrew.CrewBackpackScavenger` = C "Crew Backpack (Scavenger)". Spaetere Test-Mod `NCCrewBackpackTest`, Testhilfe
+  `NCCrewBackpackBench.lua`. Lauf 1 (Forschung: Haut-Modell-Weg, Werkzeuge `pz_koerper.py`/`pz_export.py`, Ergebnisse
+  `rucksack\forschung\`) laeuft am 08.11.; danach Lauf 2 (beide Spielmodelle).
+- **Ruestung** (`ruestung\`): Kevin will Ritterruestung fuer Spieler und NPCs, Schild, Stich-Angriff. Entscheidungen und Belege
+  `ruestung\KEVIN_ENTSCHEIDUNGEN.md`, Vorlage `ruestung\referenz\` (Stockbild, nur ansehen). **Reihenfolge (Kevin 08.11.):
+  1. Crew Backpack, 2. Helm, 3. Schwertkampf** (Einhandschwert + Schild mit Blocken, eigene Zweihaender-Bewegungen nur fuer NPCs).
 - **Baer** (Test-Mod `NCBearTest`): wird noch in der NPC-Crew-Sitzung gebaut (Lauf 'baer-anim' laeuft am 08.11.) und zieht
   danach hierher um (`baer\`). Bis dahin NICHTS an `NCBearTest` aendern.
 
@@ -130,6 +153,14 @@ Kevin fuehrt je Nebenprojekt eine eigene Claude-Sitzung (Turret, Zweihaender, sp
   dann nach Zahl der Bedingungen); `testDotSide` liefert FRONT/BEHIND/LEFT/RIGHT, die XML fragt FRONT/BACK.
 - Blender: `hair_length` ist 4 x `normal_factor` (dasselbe Feld); ein schwarzes Bild zuerst an den Massen der Szene suchen.
 - Das Spiel laedt 76 Kacheln um den Spieler; alles weiter weg existiert nicht. Reichweiten nie darueber.
+- Kleidung am Koerper (Rucksack-Forschung 08.11., Belege `rucksack\forschung\REZEPT_ENGINE.md` / `REZEPT_BLENDER.md` samt
+  Gegenpruefung): GLB geht durch denselben Lader wie `.x` (Endungssuche ohne Endung: `.fbx` vor `.glb` vor `.x` -- nie gleichnamig
+  nebeneinander; in der XML Pfad mit kleiner `.glb`). Kein eigenes Skelett: Bindung ueber Knochennamen an MaleBody (auch fuer Frauen),
+  die Offsets der Datei zaehlen -> Ruhelage exakt wie MaleBody/FemaleBody; Wurzel- und Netz-Knoten ohne eigene Matrix; Knoten `Dummy01`
+  noetig; hoechstens 60 Knochen, 4 Gewichte je Ecke, ein Netz/Material. Blender-Knochen = P*M*S (`werkzeug\pz_koerper.py`
+  `knochen_x2b`), NICHT wie Punkte umrechnen; Blenders eigener Re-Import zeigt Achsfehler nicht -- auf Datei-Ebene pruefen.
+  fileGuidTable aus common UND 42 jeder Mod (nur anhaengen, Mod-ID vor der GUID); Tint-Falle: m_AllowRandomTint/Hue false.
+  Texturen deckelt die Vorgabe-Option "Max. Texturgroesse" auf 256. Bodenmodell ohne `texture` nimmt die Kleidungs-Textur.
 
 ## 9. Git (seit 08.11.2026, Kevin: "jedes als eigenes git")
 Jedes Projekt hat ZWEI eigene Repositories, beide hochgeladen in EIN privates GitHub-Repository je Projekt (Kevin 08.11.: "auf git
