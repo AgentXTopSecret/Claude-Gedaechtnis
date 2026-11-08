@@ -122,7 +122,7 @@ Kevin fuehrt je Nebenprojekt eine eigene Claude-Sitzung (Turret, Zweihaender, sp
   Fundort -- Kevins Wort); Bandits nicht auf Namen geprueft; kleine Restbefunde im Bericht. **Naht zum Crew Backpack:** NPC Crew hat noch
   keine `ItemName.json`; wer nach dem anderen kommt, fuehrt sortiert zusammen und legt NIE neu an (der Backpack-Plan
   `04_crew_rucksack.md:189` sagt noch "neu").
-- **Crew Backpack** (`rucksack\`, noch keine Test-Mod): Plan in NPC Crew `_docs\bauplaene_2026-10-16\04_crew_rucksack.md` (Gegenstand
+- **Crew Backpack** (`rucksack\`, Test-Mod `NCCrewBackpackTest`): Plan in NPC Crew `_docs\bauplaene_2026-10-16\04_crew_rucksack.md` (Gegenstand
   `NPCCrew.CrewBackpack`, nur NPCs, +100 Traglast, Rezept Schneider-Station). Kevin 08.11.: eigenes Modell mit Aufschrift "CREW
   BACKPACK", soll cool aussehen und viel Platz haben; drei Entwuerfe A Expedition / B Kommando (sein Favorit nach der Skizze) /
   C Crew-Bastler in `rucksack\entwurf_a|b|c\`, gemeinsames Render-Studio `rucksack\werkzeug\studio.py` (OPTIX, bricht ab, wenn PZ laeuft).
@@ -133,7 +133,13 @@ Kevin fuehrt je Nebenprojekt eine eigene Claude-Sitzung (Turret, Zweihaender, sp
   Umnaehen zwischen den Optiken (Inhalt umpacken = Verlustgefahr). Namen: `NPCCrew.CrewBackpack` = B "Crew Backpack (Commando)",
   `NPCCrew.CrewBackpackScavenger` = C "Crew Backpack (Scavenger)". Spaetere Test-Mod `NCCrewBackpackTest`, Testhilfe
   `NCCrewBackpackBench.lua`. Lauf 1 (Forschung: Haut-Modell-Weg, Werkzeuge `pz_koerper.py`/`pz_export.py`, Ergebnisse
-  `rucksack\forschung\`) laeuft am 08.11.; danach Lauf 2 (beide Spielmodelle).
+  `rucksack\forschung\`) fertig 08.11.; Lauf 2 (Spielmodelle) fertig: Bau-Skripte `rucksack\spiel_b\spiel_b.py` und
+  `spiel_c\spiel_c.py` (je `-- alles`, ~3,5 min; je ~3.870 Dreiecke, GLB M/F, Boden-FBX, 512er-Textur, Icon), Staging
+  `rucksack\mod_neu\` + `mod_neu_BERICHT.md` (Pruefer, Nachbesserung, Gegenpruefung: bereit fuer SP-1). **Test-Mod
+  `Zomboid\mods\NCCrewBackpackTest` seit 08.11. ~17:43 angelegt (24 Dateien, ungespielt)**, Sicherung
+  `backups\NCCrewBackpackTest\`. Noch KEIN Git-Repo (neues Repo nur mit Kevins Wort). Offen nach SP-1: C-Gestell streift beim
+  Rennen den Hinterkopf (bis ~3 cm), kein Hand-Modell (ReplaceInPrimaryHand), Rueckenwaffe steckt ohne AttachmentReplacement im
+  Rucksack, Tooltip-Naht (eigener Schluessel fuer C?), breiter als Vanilla (0,29/0,32 statt 0,25).
 - **Ruestung** (`ruestung\`): Kevin will Ritterruestung fuer Spieler und NPCs, Schild, Stich-Angriff. Entscheidungen und Belege
   `ruestung\KEVIN_ENTSCHEIDUNGEN.md`, Vorlage `ruestung\referenz\` (Stockbild, nur ansehen). **Reihenfolge (Kevin 08.11.):
   1. Crew Backpack, 2. Helm, 3. Schwertkampf** (Einhandschwert + Schild mit Blocken, eigene Zweihaender-Bewegungen nur fuer NPCs).
