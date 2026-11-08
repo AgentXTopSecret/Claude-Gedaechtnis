@@ -138,7 +138,9 @@ Kevin fuehrt je Nebenprojekt eine eigene Claude-Sitzung (Turret, Zweihaender, sp
   `spiel_c\spiel_c.py` (je `-- alles`, ~3,5 min; je ~3.870 Dreiecke, GLB M/F, Boden-FBX, 512er-Textur, Icon), Staging
   `rucksack\mod_neu\` + `mod_neu_BERICHT.md` (Pruefer, Nachbesserung, Gegenpruefung: bereit fuer SP-1). **Test-Mod
   `Zomboid\mods\NCCrewBackpackTest` seit 08.11. ~17:43 angelegt (24 Dateien, ungespielt)**, Sicherung
-  `backups\NCCrewBackpackTest\`. Noch KEIN Git-Repo (neues Repo nur mit Kevins Wort). Offen nach SP-1: C-Gestell streift beim
+  `backups\NCCrewBackpackTest\`. Git: im Repo NPCCrew-Zweihaender, Zweige `rucksack-unterlagen` / `rucksack-testmod` (hochgeladen
+  08.11.; Tabelle Abschnitt 9). **SP-1 gespielt 08.11. ~23:10: beide laden und sitzen sichtbar auf dem Ruecken, Aufnaeher lesbar,
+  Scavenger-Kopf ok; Mangel: Luecke Ruecken-Rucksack bei beiden** (Ergebnisse `rucksack\SPIELTEST.md`). Offen nach SP-1: C-Gestell streift beim
   Rennen den Hinterkopf (bis ~3 cm), kein Hand-Modell (ReplaceInPrimaryHand), Rueckenwaffe steckt ohne AttachmentReplacement im
   Rucksack, Tooltip-Naht (eigener Schluessel fuer C?), breiter als Vanilla (0,29/0,32 statt 0,25).
 - **Ruestung** (`ruestung\`): Kevin will Ritterruestung fuer Spieler und NPCs, Schild, Stich-Angriff. Entscheidungen und Belege
