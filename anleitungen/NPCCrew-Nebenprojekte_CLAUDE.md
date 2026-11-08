@@ -106,9 +106,13 @@ Kevin fuehrt je Nebenprojekt eine eigene Claude-Sitzung (Turret, Zweihaender, sp
   Blender-Skripte `turret\modell\`, Werkzeuge `turret\tools\` (`turret_uebernahme.py`, `turret_backup.py`). **Naechster Schritt T2
   (Figur am Turret)**, vorher im Uebernahme-Skript: Cheat-Pruefung einbauen und die Pluenderer-Naht (`SR.LootTypeRefused` nennt
   `NCTurret`) als erlaubte Fundstelle eintragen (PLAN.md 'Umzug').
-- **Zweihaender** (`zweihaender\`, Test-Mod `NCZweihaender`): fertig nach Kevins Foto (Umriss 93 %), **ungespielt**. Quelle
-  `zweihaender\zweihaender.py`, Vergleich `vergleich.py`. Skript `module NCSword`, Modell `NCZweihaender` (Prop2 wie Katana),
-  `NCZweihaender.lua` ist nur Testhilfe (Rechtsklick-Spawn im SP) und darf nie mit nach NPC Crew. Uebernahme-Skript fehlt noch.
+- **Zweihaender** (`zweihaender\`, Test-Mod `NCZweihaender`): fertig nach Kevins Foto (Umriss 93 %), **gespielt 08.11.2026
+  im SP: laedt ohne Fehler, sieht aus und fuehlt sich an wie jede andere Waffe (Kevin)**. Quelle
+  `zweihaender\zweihaender.py` (schreibt FBX und Textur), Vergleich `vergleich.py`. Skript `module NCSword`, Modell
+  `NCZweihaender` (Prop2 wie Katana); das Modell muss in `module Base` bleiben (`WeaponSprite` ohne Punkt sucht laut Jar immer
+  in Base). Icon, Item-Skript, Lua und mod.info gibt es nur in der Test-Mod (keine Quelle hier). `NCZweihaender.lua` ist nur
+  Testhilfe (Rechtsklick-Spawn im SP) und darf nie mit nach NPC Crew. Uebernahme-Skript fehlt noch; dabei offen: Texte nur als
+  englischer `DisplayName` (statt `ItemName` in sieben Sprachen), Testhilfe noch nicht als `*Bench*` benannt.
 - **Baer** (Test-Mod `NCBearTest`): wird noch in der NPC-Crew-Sitzung gebaut (Lauf 'baer-anim' laeuft am 08.11.) und zieht
   danach hierher um (`baer\`). Bis dahin NICHTS an `NCBearTest` aendern.
 
@@ -140,9 +144,11 @@ in jedem der beiden Ordner landet am richtigen Zweig). Nie auf einen fremden Zwe
 - Je Repo `.gitattributes` mit `* -text` (Git schreibt keine Zeilenenden um) und `core.autocrlf false` -- nicht aendern.
 - **Committen tut die Sitzung selbst** (hier gibt es keinen Sicherungs-Waechter wie bei NPC Crew): nach jeder fertigen Version
   bzw. jedem fertigen Lauf ein Commit je betroffenem Repo, Meldung kurz auf Deutsch (ASCII), was und warum, und DANACH `git push`;
-  der Integrator macht beides. Keine halben Staende committen, nie Verlauf umschreiben.
+  der Integrator macht beides, und zwar NACH jeder fertigen Mod-Version (Kevin 08.11.: "nach jeder version von einer mod"), nicht
+  nach jeder Antwort. Davor `python C:/Users/Kevin/Claude-Gedaechtnis/sichern.py` (spiegelt und laedt das Gedaechtnis aller Projekte).
+  Keine halben Staende committen, nie Verlauf umschreiben.
 - **Gedaechtnis je Projekt:** `<projekt>/_gedaechtnis/` ist ein Spiegel der Claude-Notizen dieses Projekts (Kevin 08.11.: "jedes projekt
-  sein gedaechniss da gespeichert"), gepflegt von `C:/Users/Kevin/Claude-Gedaechtnis/sichern.py` (eigene Commits nur mit `_gedaechtnis/`).
+  sein gedaechniss da gespeichert"), gepflegt von `C:/Users/Kevin/Claude-Gedaechtnis/sichern.py` (eigene Commits nur mit `_gedaechtnis/`), laeuft nach jeder Version.
   Nicht von Hand aendern -- Notizen schreibt Claude in sein Gedaechtnis, der Spiegel folgt.
 - Uebernahme-Skripte kopieren nie `.git`/`.gitattributes` aus der Test-Mod nach NPC Crew.
 - Die Wurzel `NPCCrew-Nebenprojekte` (diese CLAUDE.md, `_arbeit/`) ist absichtlich KEIN Repo.

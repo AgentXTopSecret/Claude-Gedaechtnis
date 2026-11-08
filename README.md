@@ -12,8 +12,8 @@ Sicherung, damit nach einem Plattenschaden nichts verloren ist (Kevin 08.11.2026
 | alle anderen Projekte | `gedaechtnis/<projekt>/` hier | Claude-Gedaechtnis |
 
 Dazu hier: `anleitungen/global_CLAUDE.md` (Kevins Regeln fuer alle Projekte) und `anleitungen/NPCCrew-Nebenprojekte_CLAUDE.md`.
-Abgeglichen wird mit `sichern.py` (nach jeder Claude-Antwort per Stop-Hook, sobald Kevin den erlaubt; sonst von Hand
-`python sichern.py`). Ein Projekt-Repo bekommt dabei nur Commits mit `_gedaechtnis/`, nie halbe Bau-Staende.
+Abgeglichen und hochgeladen wird mit `python sichern.py` nach jeder fertigen Mod-Version (Kevin 08.11.: "nach jeder version von
+einer mod"), nicht nach jeder Antwort. Ein Projekt-Repo bekommt dabei nur Commits mit `_gedaechtnis/`, nie halbe Bau-Staende.
 
 ## Zurueckspielen auf einem neuen PC
 1. Repositories klonen (NPCCrew nach `Zomboid/mods/NPCCrew`, die Nebenprojekte nach `NPCCrew-Nebenprojekte/<projekt>`, die Test-Mods
