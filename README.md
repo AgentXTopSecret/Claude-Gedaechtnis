@@ -1,16 +1,28 @@
 # Claude-Gedaechtnis (privat)
 
-Sicherung von Claudes Notizen (Gedaechtnis) fuer alle Projekte auf Kevins PC und der Anleitungen, damit nach einem Plattenschaden
-nichts verloren ist (Kevin 08.11.2026). Wird nach jeder Claude-Antwort automatisch aktualisiert (Stop-Hook in
-`C:/Users/Kevin/.claude/settings.json`, Skript `sichern.py`).
+Sicherung, damit nach einem Plattenschaden nichts verloren ist (Kevin 08.11.2026). Jedes Projekt fuehrt sein Gedaechtnis
+(Claudes Notizen) im EIGENEN Repository mit (Kevin: "jedes projekt sein gedaechniss da gespeichert"):
+
+| Projekt | Gedaechtnis liegt in | Repository |
+|---|---|---|
+| NPC Crew (+ alte TrueCompanions-Notizen) | `Zomboid/mods/NPCCrew/_gedaechtnis/` | NPCCrew (committet + laedt der Sicherungs-Waechter) |
+| Turret | `NPCCrew-Nebenprojekte/turret/_gedaechtnis/` | NPCCrew-Turret, Zweig `unterlagen` |
+| Zweihaender | `NPCCrew-Nebenprojekte/zweihaender/_gedaechtnis/` | NPCCrew-Zweihaender, Zweig `unterlagen` |
+| Baer (nach dem Umzug) | `NPCCrew-Nebenprojekte/baer/_gedaechtnis/` | NPCCrew-Baer, Zweig `unterlagen` |
+| alle anderen Projekte | `gedaechtnis/<projekt>/` hier | Claude-Gedaechtnis |
+
+Dazu hier: `anleitungen/global_CLAUDE.md` (Kevins Regeln fuer alle Projekte) und `anleitungen/NPCCrew-Nebenprojekte_CLAUDE.md`.
+Abgeglichen wird mit `sichern.py` (nach jeder Claude-Antwort per Stop-Hook, sobald Kevin den erlaubt; sonst von Hand
+`python sichern.py`). Ein Projekt-Repo bekommt dabei nur Commits mit `_gedaechtnis/`, nie halbe Bau-Staende.
 
 ## Zurueckspielen auf einem neuen PC
-1. Repository klonen nach `C:/Users/Kevin/Claude-Gedaechtnis`.
-2. `gedaechtnis/<projekt>/*.md` nach `C:/Users/Kevin/.claude/projects/<projekt>/memory/` kopieren (Ordnernamen sind die
-   Projektpfade von Claude Code, z. B. `C--Users-Kevin-Zomboid-mods-NPCCrew` fuer `C:\Users\Kevin\Zomboid\mods\NPCCrew`).
-3. `anleitungen/global_CLAUDE.md` nach `C:/Users/Kevin/.claude/CLAUDE.md`,
-   `anleitungen/NPCCrew-Nebenprojekte_CLAUDE.md` nach `C:/Users/Kevin/NPCCrew-Nebenprojekte/CLAUDE.md`.
-4. Die Projekte selbst kommen aus ihren eigenen Repositories (NPCCrew, NPCCrew-Turret, NPCCrew-Zweihaender, spaeter NPCCrew-Baer).
+1. Repositories klonen (NPCCrew nach `Zomboid/mods/NPCCrew`, die Nebenprojekte nach `NPCCrew-Nebenprojekte/<projekt>`, die Test-Mods
+   vom Zweig `main` nach `Zomboid/mods/<TestMod>`, dieses nach `C:/Users/Kevin/Claude-Gedaechtnis`).
+2. Je Projekt `_gedaechtnis/*.md` nach `C:/Users/Kevin/.claude/projects/<projektordner>/memory/` kopieren (Ordnernamen sind die
+   Projektpfade von Claude Code, z. B. `C--Users-Kevin-Zomboid-mods-NPCCrew`, `C--Users-Kevin-NPCCrew-Nebenprojekte-turret`;
+   die Zuordnung steht in `sichern.py`, Tabelle MAP).
+3. `anleitungen/global_CLAUDE.md` nach `C:/Users/Kevin/.claude/CLAUDE.md`, `anleitungen/NPCCrew-Nebenprojekte_CLAUDE.md` nach
+   `C:/Users/Kevin/NPCCrew-Nebenprojekte/CLAUDE.md`.
 
 Nicht enthalten (Absicht): Zugangsdaten, Gespraechsprotokolle, die Arbeitsunterlagen `NPCCrew/_docs` (Kevins Entscheidung 08.09.:
 nur auf der Platte).
