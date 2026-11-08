@@ -128,7 +128,10 @@ Kevin fuehrt je Nebenprojekt eine eigene Claude-Sitzung (Turret, Zweihaender, sp
 - Das Spiel laedt 76 Kacheln um den Spieler; alles weiter weg existiert nicht. Reichweiten nie darueber.
 
 ## 9. Git (seit 08.11.2026, Kevin: "jedes als eigenes git")
-Jedes Projekt hat ZWEI eigene, nur lokale Repositories (nie zusammengelegt, kein GitHub ohne Kevins Wort, kein push):
+Jedes Projekt hat ZWEI eigene Repositories, beide hochgeladen in EIN privates GitHub-Repository je Projekt (Kevin 08.11.: "auf git
+automatisch laden nach jeder version"): `github.com/AgentXTopSecret/NPCCrew-Turret`, `.../NPCCrew-Zweihaender`, `.../NPCCrew-Baer`;
+die Test-Mod geht auf den Zweig `main`, die Unterlagen auf den Zweig `unterlagen` (schon so eingestellt: ein einfaches `git push`
+in jedem der beiden Ordner landet am richtigen Zweig). Nie auf einen fremden Zweig pushen, nie `--force`, kein neues Repo ohne Kevin:
 | Projekt | Unterlagen | Test-Mod (Git-Verzeichnis liegt in den Sicherungen, im Mod-Ordner nur die Zeigerdatei `.git`) |
 |---|---|---|
 | Turret | `turret/` | `Zomboid/mods/NCTurretTest` -> `Zomboid/backups/NCTurretTest/repo.git` |
@@ -136,7 +139,10 @@ Jedes Projekt hat ZWEI eigene, nur lokale Repositories (nie zusammengelegt, kein
 | Baer (nach dem Umzug) | `baer/` | `Zomboid/mods/NCBearTest` -> `Zomboid/backups/NCBearTest/repo.git` |
 - Je Repo `.gitattributes` mit `* -text` (Git schreibt keine Zeilenenden um) und `core.autocrlf false` -- nicht aendern.
 - **Committen tut die Sitzung selbst** (hier gibt es keinen Sicherungs-Waechter wie bei NPC Crew): nach jeder fertigen Version
-  bzw. jedem fertigen Lauf ein Commit je betroffenem Repo, Meldung kurz auf Deutsch (ASCII), was und warum; der Integrator macht es.
-  Keine halben Staende committen, nie `--force`, nie Verlauf umschreiben.
+  bzw. jedem fertigen Lauf ein Commit je betroffenem Repo, Meldung kurz auf Deutsch (ASCII), was und warum, und DANACH `git push`;
+  der Integrator macht beides. Keine halben Staende committen, nie Verlauf umschreiben.
+- **Gedaechtnis je Projekt:** `<projekt>/_gedaechtnis/` ist ein Spiegel der Claude-Notizen dieses Projekts (Kevin 08.11.: "jedes projekt
+  sein gedaechniss da gespeichert"), gepflegt von `C:/Users/Kevin/Claude-Gedaechtnis/sichern.py` (eigene Commits nur mit `_gedaechtnis/`).
+  Nicht von Hand aendern -- Notizen schreibt Claude in sein Gedaechtnis, der Spiegel folgt.
 - Uebernahme-Skripte kopieren nie `.git`/`.gitattributes` aus der Test-Mod nach NPC Crew.
 - Die Wurzel `NPCCrew-Nebenprojekte` (diese CLAUDE.md, `_arbeit/`) ist absichtlich KEIN Repo.
