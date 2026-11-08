@@ -106,7 +106,8 @@ Kevin fuehrt je Nebenprojekt eine eigene Claude-Sitzung (Turret, Zweihaender, sp
   Blender-Skripte `turret\modell\`, Werkzeuge `turret\tools\` (`turret_uebernahme.py`, `turret_uebernahme_probe.py`,
   `turret_backup.py`). Uebernahme-Skript am 08.11. nachgeruestet: Cheat-Pruefung (bricht ab, `--vor-t10` nur Warnung bis T9) und
   Pluenderer-Naht als erlaubte Fundstelle; Trockenlauf absichtlich rot mit 2 T1-Platzhaltern des Spawn-Wegs, die T3 ersetzt (NAEHTE.md
-  'Erlaubte Fundstellen'). **Naechster Schritt T2 (Figur am Turret).** Spaeter, auf Kevins Wort: Groesse MK I < MK II < MK III
+  'Erlaubte Fundstellen'). **T2 (Figur am Turret) ist geplant: `turret\T2_plan.md`** (T2a Sonde mit 7 Agenten, dann T2b Schuss mit 6;
+  K1-K10 in Abschnitt 0.2 am 08.11. entschieden: "Ja, alle so"; naechster Lauf: Bau T2a). Spaeter, auf Kevins Wort: Groesse MK I < MK II < MK III
   (KEVIN_ENTSCHEIDUNGEN.md unten).
 - **Zweihaender** (`zweihaender\`, Test-Mod `NCZweihaender`): fertig nach Kevins Foto (Umriss 93 %), **gespielt 08.11.2026
   im SP: laedt ohne Fehler, sieht aus und fuehlt sich an wie jede andere Waffe (Kevin)**. Quelle
