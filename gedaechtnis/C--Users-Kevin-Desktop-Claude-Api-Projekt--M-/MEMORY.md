@@ -1,0 +1,4 @@
+﻿- [Tools folder](user-tools-folder.md) — portable JDK 25, Vineflower, luacheck, Lua 5.1, AssetRipper in C:\Users\Kevin\Tools; LocalDB installed 2026-10-23 for SQL Server tests
+- [Tool download policy](tool-download-policy.md) — list + wait for "bestätigt", official, portable, checksum-verified
+- [ProduktApi handoff](produktapi-handoff.md) — API is forwarded to another person as ZIP with German README
+- [Antworten auf Deutsch](sprache-deutsch.md) — user wants every reply in German, incl. status updates

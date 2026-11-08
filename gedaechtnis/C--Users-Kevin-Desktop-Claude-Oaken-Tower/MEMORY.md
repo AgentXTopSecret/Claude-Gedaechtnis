@@ -1,0 +1,2 @@
+- [Zwei Konten, Übergabe](kevin-zwei-konten-uebergabe.md) — Kevin wechselt Konten bei Limit; immer UEBERGABE.md + Hinweis in CLAUDE.md pflegen
+- [Abo statt API](kevin-abo-statt-api.md) — kein API-Guthaben; Claude-Anbindungen über claude -p mit Abo, ANTHROPIC_* entfernen

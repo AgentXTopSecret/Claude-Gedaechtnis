@@ -1,0 +1,1 @@
+- [Buttons ohne Behauptungen](buttons-keine-behauptungen.md) — Antwort-Buttons nur als Wahl formulieren, nie Tatsachen in Kevins Mund legen

@@ -1,0 +1,8 @@
+- [Übergabe 02.11. ans andere Konto](uebergabe-konto-02-11.md) — read UEBERGABE.md first; 0.14.1 installed 04.11.; lab runs only on Kevin's word
+- [Checkpoint before heavy steps](checkpoint-before-heavy-steps.md) — 5h usage window: save STAND.md + stand/ after each workflow, then carry on (no pause since 26.10.)
+- [Max 10 agents](max-10-agents.md) — never more than 10 agents per workflow (Kevin's Max limit); check get_usage first
+- [Effort extra hoch](effort-extra-hoch.md) — Kevin 28.10.: coding at xhigh; workflow agents: spec/reviewers max, builders xhigh, simple steps high
+- [Wächter + Aufgabenliste](waechter-aufgabenliste.md) — AUFGABEN.md task list; all tasks done 30.10. 20:46, watcher ended; recreate only on Kevin's word
+- [BB Legends custom mod goals](bb-legends-custom-mod-goals.md) — Kevin's rules: newest Legends, German translation 1085, equal-odds recruits everywhere, all non-magic perks for every bro
+- [GitHub repo](github-repo.md) — private repo AgentXTopSecret/Battle-Brothers-Mods (git in project root, whitelist .gitignore); auto commit+push after each installed version (Kevin 28.10.)
+- [Fragen auf Deutsch](fragen-deutsch.md) — Kevin 30.10.: all questions in German; translate the app's English dialogs for him

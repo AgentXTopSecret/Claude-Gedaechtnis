@@ -1,0 +1,10 @@
+- [Always German](always-german.md) — every user-facing text in German, including short status lines
+- [Download rules](download-confirmation-rules.md) — list file/source/size, wait for "bestätigt", portable originals, verify checksums
+- [Local tools folder](local-tools-folder.md) — C:\Users\Kevin\Tools: JDK 25, Vineflower, luacheck, Lua 5.1, AssetRipper, ruff 0.17.2
+- [Project Python packages](project-python-packages.md) — .venv: PySide6, numpy, Pillow, OpenCV 5.0.0.93 (SHA verified) for camera tracking
+- [EU5 advisor repo](eu5-advisor-repo.md) — private GitHub repo AgentXTopSecret/Eu-5-Mod (main), keep private, no personal names
+- [Push after each step](push-after-each-step.md) — standing OK: commit + push after every finished, tested step, then summarize briefly
+- [Git commit on this PC](git-commit-on-this-pc.md) — commit messages via Bash `cat file | git commit -F -`; PowerShell quoting and long paths break it
+- [Camera tracking paused](camera-tracking-paused.md) — branch feature/kamera-verfolgung, not merged; findings in its README
+- [Workflows wanted](no-workflows-usage-limit.md) — use workflows in general; pause only while user says limit is low right now
+- [Feature 2 government advisor](feature2-government-advisor.md) — must work for ANY country (Böhmen was only a test); rule overview merged; next: own-country state from save

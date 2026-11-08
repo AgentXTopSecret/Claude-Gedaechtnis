@@ -1,0 +1,2 @@
+- [Download rules](download-confirmation-rules.md) — list file/source/size, wait for "bestätigt", portable originals, verify checksums
+- [Local tools folder](local-tools-folder.md) — C:\Users\Kevin\Tools: JDK 25, Vineflower, luacheck, Lua 5.1, AssetRipper, ruff 0.17.2

@@ -1,0 +1,9 @@
+- [Waffe nicht verlieren](waffe-nicht-verlieren.md) — das erprobte Muster: erst zurückgeben, dann ausrüsten, Zustand reist mit. Im Spiel bestätigt.
+- [AddItem-nach-Remove-Regel](additem-nach-remove-regel.md) — die Regel, die ich ständig breche; mit dem grep, der die nächste Stelle findet.
+- [Werkzeugverlust-Test](werkzeugverlust-test.md) — gelöst und im Spiel bestätigt: zwei Werkzeuge desselben Typs. Die Ursache stand im Log, während der Test als grün galt.
+- [Sonden müssen sagen, was sie messen](sonden-muessen-sagen-was-sie-messen.md) — zweimal an einem Tag eine wahre Sondenzeile falsch gelesen.
+- [Konsole zuerst nach Fehlern](konsole-zuerst-nach-fehlern.md) — ERROR/Exception in console.txt suchen, BEVOR ich theoretisiere; acht Versionen an einem OOM vorbeigesucht.
+- [Agenten sparsam einsetzen](agenten-sparsam-einsetzen.md) — HARTE REGEL: über 10 Agenten immer vorher fragen. Zweimal ist sein 5-Stunden-Fenster daran fast draufgegangen.
+- [Neutral statt "she"](neutral-statt-she.md) — Companions sind nicht alle weiblich; they/them, aber die Backstory-Zeilen bleiben gegendert.
+- [Kurz antworten](kurz-antworten.md) — 3-6 Zeilen, Ergebnis zuerst. Die Begruendungen gehoeren in Changelog und Code, nicht in den Chat.
+- [Workshop-Release: die id](workshop-release-id.md) — VOR der ersten Veroeffentlichung an die Mod-id erinnern; danach haengen alle Abonnenten dran.

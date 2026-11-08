@@ -1,0 +1,2 @@
+﻿- [CLAUDE.md-Aufgabe Stand](claude-md-aufgabe-stand.md) — abgeschlossen 25.10.: neue CLAUDE.md in 4 Desktop-Ordnern, Zusammenfassung in Desktop\Claude Export\STAND-CLAUDE-MD-AUFGABE.md
+- [Kevin duzen](kevin-duzen.md) - immer "du", nie "Sie"

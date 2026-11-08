@@ -1,0 +1,4 @@
+- [War of Banners: gewünschter Mod-Umfang](war-of-banners-mod-umfang.md) — alle Berater + Autopilot + verborgene Talente; Bau seit 30.10.2026, Autopilot erst zur Vollversion
+- [War of Banners: technische Befunde](war-of-banners-technik.md) — UE 5.5, unverschlüsselt, UE4SS experimental läuft, KI-Funktionen nicht aufrufbar
+- [War of Banners: Start-Tipps zur Vollversion anpassen](war-of-banners-start-tipps-vollversion.md) — Tipps sind auf 100 Demo-Tage ausgelegt, bei Release neu bewerten
+- [Kevins Kontingent](kevin-kontingent.md) — Max-Abo ohne API, Claude-Aufrufe sparsam planen

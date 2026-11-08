@@ -1,0 +1,1 @@
+- [Claude-App-Mods: Ort und Laden](claude-app-mods-location.md) — Mods in Desktop\Claude Mods, laden überall via CLAUDE_CODE_PLUGIN_DIRS
