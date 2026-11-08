@@ -112,6 +112,8 @@ Kevin fuehrt je Nebenprojekt eine eigene Claude-Sitzung (Turret, Zweihaender, sp
   Kevins Test nach `turret\T2a_test_fuer_kevin.md` (braucht NPC Crew UND die Test-Mod aktiv; erst nach dem laufenden NPC-Crew-Bau,
   vorher Naehte gegen den neuen Stand pruefen); T2b erst nach seinem "weiter". Spaeter, auf Kevins Wort: Groesse MK I < MK II < MK III
   (KEVIN_ENTSCHEIDUNGEN.md unten).
+- **Modelle-Sitzung (Zweihaender, Crew Backpack, Ruestung): zuerst `zweihaender\STAND.md`** (Uebergabe 08.11. ~23:55: Rucksack
+  fertig und gespielt, als Naechstes Rucksack-Uebernahme-Skript/NAEHTE, dann Helm, dann Schwertkampf).
 - **Zweihaender** (`zweihaender\`, Test-Mod `NCZweihaender`): fertig nach Kevins Foto (Umriss 93 %), **gespielt 08.11.2026
   im SP: laedt ohne Fehler, sieht aus und fuehlt sich an wie jede andere Waffe (Kevin)**. Quelle
   `zweihaender\zweihaender.py` (schreibt FBX und Textur), Vergleich `vergleich.py`. Skript `module NCSword`, Modell
@@ -144,7 +146,8 @@ Kevin fuehrt je Nebenprojekt eine eigene Claude-Sitzung (Turret, Zweihaender, sp
   08.11.; Tabelle Abschnitt 9). **SP-1 gespielt 08.11. ~23:10: beide laden und sitzen sichtbar auf dem Ruecken, Aufnaeher lesbar,
   Scavenger-Kopf ok; Mangel: Luecke Ruecken-Rucksack bei beiden** (Ergebnisse `rucksack\SPIELTEST.md`). Luecke 08.11. 23:20
   behoben fuer Commando M/F; Scavenger M/F 23:28 per `anschmiegen()` (der Sack hing hinter dem Gestell, Kopf unveraendert) -- alles in
-  der Test-Mod, ungespielt. Offen nach SP-1: C-Gestell streift beim
+  der Test-Mod; 23:43 beide BUENDIG wie Vanilla (Kevin SP-1b: "kannste durch gucken"), **23:50 von Kevin gespielt: "perfekt keine
+  luecke mehr"**. Offen nach SP-1: C-Gestell streift beim
   Rennen den Hinterkopf (bis ~3 cm), kein Hand-Modell (ReplaceInPrimaryHand), Rueckenwaffe steckt ohne AttachmentReplacement im
   Rucksack, Tooltip-Naht (eigener Schluessel fuer C?), breiter als Vanilla (0,29/0,32 statt 0,25).
 - **Ruestung** (`ruestung\`): Kevin will Ritterruestung fuer Spieler und NPCs, Schild, Stich-Angriff. Entscheidungen und Belege
