@@ -1,2 +1,3 @@
-- [Kevins Zielbild Starter-Basis](blueprint-kevins-zielbild.md) — komplette ummauerte Basis wie PZ-Werbebild, Turrets an Eingaengen, nur ebenerdig
+- [Kevins Zielbild Starter-Basis](blueprint-kevins-zielbild.md) — Festung mit 4 Toren + Turrets, Tuerme, 20 Betten, Holzplatz, Teich; viele kleine Stapel, freie Durchgaenge
 - [Vorschau-Renders fuer 3D-Modelle](blueprint-vorschau-renders.md) — Spielwinkel und Massstab fuer Blender-Renders in vorschau.py
+- [PZ-Update 09.11.2026](pz-update-2026-11-09.md) — Kacheldefinitionen jetzt in media/tile_definitions/, Packs geaendert; Pack-Leser angepasst

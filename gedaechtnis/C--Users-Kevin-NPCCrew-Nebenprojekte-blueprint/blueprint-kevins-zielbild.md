@@ -1,15 +1,17 @@
 ---
 name: blueprint-kevins-zielbild
-description: "Kevins Zielbild fuer die Blueprint-Starter-Basis (komplette ummauerte Basis, Turrets an den Eingaengen, Workshop-Werbebild)"
+description: "Kevins Zielbild fuer die Blueprint-Starter-Basis (Festung mit 4 Toren + Turrets, Tuerme, 20 Betten, NPC-Crew-Holzplatz innen, Holzfaeller-Ort draussen, Teich) und Stand"
 metadata:
   node_type: memory
   type: project
   originSessionId: 2c69e304-687f-40a4-a85b-6bb959366676
-  modified: 2026-11-09T13:16:08.624Z
+  modified: 2026-11-09T17:28:42.430Z
 ---
 
-Kevin (09.11.2026) zeigte ein Project-Zomboid-Werbebild als Vorbild: komplette ummauerte Basis (Mauer ringsum, mehrere Gebaeude mit Flachdach, Hof, Parkplatz mit Autos, Felder, Gehege, Wald drumherum). Dazu: Turrets aus dem Turret-Projekt sollen die Eingaenge absichern, alles "mega nice", damit jeder beim ersten Workshop-Bild abonniert.
+Kevin (09.11.2026) will eine komplette ummauerte Basis als Werbebild fuer NPC Crew ("mega nice, damit jeder abonniert"), eigener Grundriss (Entwurf 1 war ihm "ziemlich hart kopiert"): Tor auf jeder Seite mit Turrets, Wachtuerme an den Ecken, Platz fuer ~20 Arbeiter, Teich zum Angeln. Holz: der NPC-Crew-Holzplatz (Wood yard, Buendel der Foersterin) INNEN, der Holzfaeller-ORT AUSSERHALB der Basis. Er liebt gestapelte Staemme (viele kleine) und hasst Sichtsperren vor Durchgaengen.
 
-**Why:** Die Basis ist Werbung fuer NPC Crew (Workshop-Screenshots, spaeter Video); Optik zaehlt so viel wie Funktion.
+**Why:** Die Basis ist Werbung (Workshop-Screenshots, spaeter Video) und soll die Mechanik der eigenen Mod zeigen, nicht Vanilla-Deko.
 
-**How to apply:** Entwuerfe wie eine Festung denken (hohe Steinmauer gewaehlt), hohe Teile hinten (Norden/Westen), Niedriges vorn. Turrets nur ebenerdig: das Turret zielt nur auf gleiche Ebene (NCTurretTest client/BanditsNPCTurretClient.lua:195/:299), Tuerme mit Turret brauchen erst eine Aenderung im Turret-Projekt. Entwurf 1 liegt in blueprint/entwurf/ (ENTWURF.md). Siehe [[blueprint-vorschau-renders]].
+**Freigegeben 09.11. ~19:10** (Kevin: "das ist schonmal geil, das musst du dir so abspeichern"): Festung mit 4 Toren, Lichtung R=18 rundum, Zufahrten bis zum Waldrand, Fischzone mit Uferring -- Schnappschuss blueprint/entwurf/freigabe_2026-11-09/ ist die Referenz; Aenderungen bauen darauf auf.
+
+**How to apply:** Turrets nur ebenerdig (zielt nur auf gleiche Ebene). Deko mit bed-Flag (Hackklotz, Heuballen) zaehlt bei NPC Crew als Bett -> nicht in die Basis. Stand 09.11. ~18:30: Entwurf 2b gebaut als Test-Mod NCBlueprintTest (Befehl NCBlueprint_Bau(), nur SP+debug), ungespielt; Testanleitung blueprint/b1/TEST_fuer_kevin.md; kein eigenes Git-Repo (Kevin 09.11.: kommt spaeter anders in NPC Crew). Kevins Kontingent: vor grossen Workflows get_usage pruefen, er wartet lieber auf den Reset. Siehe [[blueprint-vorschau-renders]], [[pz-update-2026-11-09]].
