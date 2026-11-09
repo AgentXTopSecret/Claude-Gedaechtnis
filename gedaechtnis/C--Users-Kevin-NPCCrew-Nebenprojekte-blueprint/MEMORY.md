@@ -1,0 +1,2 @@
+- [Kevins Zielbild Starter-Basis](blueprint-kevins-zielbild.md) — komplette ummauerte Basis wie PZ-Werbebild, Turrets an Eingaengen, nur ebenerdig
+- [Vorschau-Renders fuer 3D-Modelle](blueprint-vorschau-renders.md) — Spielwinkel und Massstab fuer Blender-Renders in vorschau.py
