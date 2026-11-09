@@ -204,3 +204,6 @@ in jedem der beiden Ordner landet am richtigen Zweig). Nie auf einen fremden Zwe
   Nicht von Hand aendern -- Notizen schreibt Claude in sein Gedaechtnis, der Spiegel folgt.
 - Uebernahme-Skripte kopieren nie `.git`/`.gitattributes` aus der Test-Mod nach NPC Crew.
 - Die Wurzel `NPCCrew-Nebenprojekte` (diese CLAUDE.md, `_arbeit/`) ist absichtlich KEIN Repo.
+- **Nachtrag zu Abschnitt 7 -- Blueprint / Starter-Basis** (`blueprint\`, Test-Mod spaeter `NCBlueprintTest`, seit 09.11.2026): schoene Basis per Debug-Testbefehl
+  fuer Workshop-Screenshots, spaeter Builder-Job mit Blueprints. **Zuerst `blueprint\STAND.md`**, dann `blueprint\PLAN.md`. Forschung fertig
+  (Kacheln, Deko, Platzierung, NPC-Crew-API, Vorschau-Werkzeug aus echten Spielgrafiken); als Naechstes Entwurf + Vorschaubild fuer Kevin.
