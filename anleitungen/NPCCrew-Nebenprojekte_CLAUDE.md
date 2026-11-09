@@ -84,9 +84,10 @@ Kevin fuehrt je Nebenprojekt eine eigene Claude-Sitzung (Turret, Zweihaender, sp
   Massenarbeit lieber per Skript.
 - **Alles erst im Arbeitsordner bauen, dann in EINEM Zug in die Test-Mod kopieren** (Kevin kann jederzeit spielen), vorher und
   nachher sichern (Zip nach `Zomboid\backups\<TestMod>\`), byte-gleich nachzaehlen, nur hinzufuegen/ueberschreiben, nie loeschen.
-- **Nicht bauen oder rendern, waehrend Kevin mit der betroffenen Mod spielt:** `tasklist | grep -i ProjectZomboid`; laeuft das
+- **Nicht in eine Test-Mod kopieren, waehrend Kevin mit ihr spielt:** `tasklist | grep -i ProjectZomboid`; laeuft das
   Spiel, die Mod-Liste des GELADENEN Spielstands lesen (zweite `loading`-Liste in console.txt bzw. `mods.txt` des Spielstands; die
-  erste `loaded OK`-Zeile kommt schon aus dem Hauptmenue). Renders nur auf der RTX 4090 (OPTIX, auch Denoiser), nie waehrend er spielt.
+  erste `loaded OK`-Zeile kommt schon aus dem Hauptmenue). Renders nur auf der RTX 4090 (OPTIX, auch Denoiser). **Rendern ist auch bei
+  laufendem Spiel erlaubt** (Kevin 09.11.2026 zur alten Regel "nie rendern, waehrend er spielt": *"loesch die regel die hab ich nie gemacht!"*).
 - Diagnose ueber Log-Zeilen hinter einem Schalter, echte Fehler immer melden; nichts Teures je Bild; Deckel fuer alles, was waechst;
   Mehrfachrueckgaben erst in Locals holen; Zeilenenden je Datei pruefen; Heredoc-Falle: keine Backslash-Escapes in Python-Heredocs.
 
