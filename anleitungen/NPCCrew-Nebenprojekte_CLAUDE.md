@@ -131,7 +131,7 @@ Kevin fuehrt je Nebenprojekt eine eigene Claude-Sitzung (Turret, Zweihaender, sp
 - **Crew Backpack** (`rucksack\`, Test-Mod `NCCrewBackpackTest`): Plan in NPC Crew `_docs\bauplaene_2026-10-16\04_crew_rucksack.md` (Gegenstand
   `NPCCrew.CrewBackpack`, nur NPCs, +100 Traglast, Rezept Schneider-Station). Kevin 08.11.: eigenes Modell mit Aufschrift "CREW
   BACKPACK", soll cool aussehen und viel Platz haben; drei Entwuerfe A Expedition / B Kommando (sein Favorit nach der Skizze) /
-  C Crew-Bastler in `rucksack\entwurf_a|b|c\`, gemeinsames Render-Studio `rucksack\werkzeug\studio.py` (OPTIX, bricht ab, wenn PZ laeuft).
+  C Crew-Bastler in `rucksack\entwurf_a|b|c\`, gemeinsames Render-Studio `rucksack\werkzeug\studio.py` (OPTIX; rendert seit 09.11. auch bei offenem Spiel).
   Entwuerfe fertig gerendert 08.11. ~14:52 (Vergleich `rucksack\vergleich_alle.png`). Es sind Schaumodelle
   (100k-850k Dreiecke, kein UV, keine Haut am Skelett). Bekannte Schwaeche B: Ponchorolle liegt lose vor dem Rucksack.
   **Kevin 08.11.: "Ja, beide bauen"** -- B und C werden zwei Gegenstaende mit gleichen Werten und zwei Rezepten an der
