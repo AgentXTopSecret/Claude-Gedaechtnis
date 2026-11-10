@@ -1,3 +1,4 @@
+- [UEBERGABE 10.11. -- zuerst lesen](blueprint-uebergabe-stand.md) — drei Staende (Test-Mod 2b / Staging 3b / Burg-Plan V2), naechster Schritt Sattelzuege, Testliste: blueprint/UEBERGABE.md
 - [Kevins Zielbild Starter-Basis](blueprint-kevins-zielbild.md) — Festung mit 4 Toren + Turrets, Tuerme, 20 Betten, Holzplatz, Teich; viele kleine Stapel, freie Durchgaenge
 - [Vorschau-Renders fuer 3D-Modelle](blueprint-vorschau-renders.md) — Spielwinkel und Massstab fuer Blender-Renders in vorschau.py
 - [Sattelzug-Plan 10.11.2026](blueprint-sattelzug-plan.md) — W900 + Freightliner COE mit groesstem Auflieger in Festung+Burg, gerade durchs Tor; Plan + Workflow bereit, Start auf Kevins Wort
