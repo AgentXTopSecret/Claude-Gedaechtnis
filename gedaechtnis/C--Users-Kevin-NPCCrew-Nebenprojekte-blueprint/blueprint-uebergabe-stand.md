@@ -1,6 +1,6 @@
 ---
 name: blueprint-uebergabe-stand
-description: "Uebergabe 10.11.2026 ~02:50 fuer Kevins anderen Claude-Account: drei Staende (Test-Mod 2b, Staging 3b, Burg-Plan V2), naechster Schritt Sattelzuege, was Kevin noch testen muss -- zuerst blueprint/UEBERGABE.md"
+description: "Uebergabe 10.11.2026 ~16:35 fuer Kevins anderen Claude-Account: drei Staende (Test-Mod 2b, Staging 3b, Burg-Plan V2), naechster Schritt Sattelzuege, was Kevin noch testen muss -- zuerst blueprint/UEBERGABE.md"
 metadata:
   node_type: memory
   type: project
