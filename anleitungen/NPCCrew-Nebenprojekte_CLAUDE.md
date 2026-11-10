@@ -113,8 +113,9 @@ Kevin fuehrt je Nebenprojekt eine eigene Claude-Sitzung (Turret, Zweihaender, sp
   Kevins Test nach `turret\T2a_test_fuer_kevin.md` (braucht NPC Crew UND die Test-Mod aktiv; erst nach dem laufenden NPC-Crew-Bau,
   vorher Naehte gegen den neuen Stand pruefen); T2b erst nach seinem "weiter". Spaeter, auf Kevins Wort: Groesse MK I < MK II < MK III
   (KEVIN_ENTSCHEIDUNGEN.md unten).
-- **Modelle-Sitzung (Zweihaender, Crew Backpack, Ruestung): zuerst `zweihaender\STAND.md`** (Uebergabe 08.11. ~23:55: Rucksack
-  fertig und gespielt, als Naechstes Rucksack-Uebernahme-Skript/NAEHTE, dann Helm, dann Schwertkampf).
+- **Modelle-Sitzung (Zweihaender, Crew Backpack, Ruestung): zuerst `zweihaender\STAND.md`** (Uebergabe 10.11. ~02:40: Zweihaender,
+  Crew Backpack und Ritterhelme fertig, gespielt, je mit Uebernahme-Skript (`--echt` nie gelaufen); Brustteil "Knight Cuirass" gewaehlt,
+  Bau nach dem Reset 15.11. nach `ruestung\BRUST_SPIEL_PLAN.md`; danach Schwertkampf).
 - **Zweihaender** (`zweihaender\`, Test-Mod `NCZweihaender`): fertig nach Kevins Foto (Umriss 93 %), **gespielt 08.11.2026
   im SP: laedt ohne Fehler, sieht aus und fuehlt sich an wie jede andere Waffe (Kevin)**. Quelle
   `zweihaender\zweihaender.py` (schreibt FBX und Textur), Vergleich `vergleich.py`. Skript `module NCSword`, Modell
@@ -190,6 +191,7 @@ in jedem der beiden Ordner landet am richtigen Zweig). Nie auf einen fremden Zwe
 | Zweihaender | `zweihaender/` | `Zomboid/mods/NCZweihaender` -> `Zomboid/backups/NCZweihaender/repo.git` |
 | Baer (nach dem Umzug) | `baer/` | `Zomboid/mods/NCBearTest` -> `Zomboid/backups/NCBearTest/repo.git` |
 | Crew Backpack (im Repo NPCCrew-Zweihaender) | `rucksack/` -> Zweig `rucksack-unterlagen` | `Zomboid/mods/NCCrewBackpackTest` -> `Zomboid/backups/NCCrewBackpackTest/repo.git`, Zweig `rucksack-testmod` |
+| Ruestung (Helme, Brustteil; im Repo NPCCrew-Zweihaender) | `ruestung/` -> Zweig `ruestung-unterlagen` | `Zomboid/mods/NCKnightArmorTest` -> `Zomboid/backups/NCKnightArmorTest/repo.git`, Zweig `ruestung-testmod` |
 
 - **Modelle teilen sich das Zweihaender-Repo** (Kevin 08.11.: *"ne das kann ja bei den schwert dazu das ist ja quasi die kategorie
   models erstellen"*): Modell-Projekte (Rucksack, spaeter Ruestung/Helm) bekommen eigene Zweige in `NPCCrew-Zweihaender`
