@@ -1,25 +1,25 @@
 ---
 name: blueprint-uebergabe-stand
-description: "Uebergabe 10.11.2026 ~16:35 fuer Kevins anderen Claude-Account: drei Staende (Test-Mod 2b, Staging 3b, Burg-Plan V2), naechster Schritt Sattelzuege, was Kevin noch testen muss -- zuerst blueprint/UEBERGABE.md"
+description: "Uebergabe 11.11.2026 ~15:05 fuer Kevins anderen Claude-Account: Test-Mod = Festung 3b + Basis/Burg Leuchtfeuer (ungespielt), ZUERST Turret-Naht reparieren, dann Testreihenfolge -- blueprint/UEBERGABE.md Abschnitt 0"
 metadata:
   node_type: memory
   type: project
-  originSessionId: 2c69e304-687f-40a4-a85b-6bb959366676
-  modified: 2026-11-10T15:36:37.006Z
+  originSessionId: 6e34c02d-c562-4c74-a7f8-6fe78bc56748
+  modified: 2026-11-11T14:04:18.380Z
 ---
 
-Kevin wechselt zwischen Claude-Accounts (10.11.: "du speicherst erstmal alles ab fuer meinen anderen claude account das er
-bescheid weiss wo wir sind und was als naechstes dran kommt und was wir noch testen muessen"). Volle Uebergabe in
-`C:\Users\Kevin\NPCCrew-Nebenprojekte\blueprint\UEBERGABE.md` (Zeiger auch oben in STAND.md und in der Nebenprojekte-CLAUDE.md).
+Kevin wechselt zwischen Claude-Accounts (10.11. und wieder 11.11. ~15:00: "der andere account soll alles wissen was ich noch testen
+soll und wo es weiter geht"). Volle Uebergabe: `C:\Users\Kevin\NPCCrew-Nebenprojekte\blueprint\UEBERGABE.md` **Abschnitt 0**
+(geht dem alten Teil darunter vor), Verlauf `blueprint\leuchtfeuer\STAND.md`.
 
-Drei Staende, nicht verwechseln: **A** Festung 2b liegt in der Test-Mod NCBlueprintTest (Stand 09.11. 19:04; darin noch
-Vogelscheuche = Speicher-Absturz -> nach dem Bau zerstoeren, und Felsen -> `NCBlueprint_Bau("hart")`); **B** Festung 3b (alle 11
-Stationen Stufe 3, ein Generator, 2 Vanilla-Gespanne, Felsen-Fix, ohne Vogelscheuche) nur im Staging, geprueft, nicht gespielt,
-wartet auf Kevins Ja; **C** Ritterburg V2 nur Plan, wartet auf Absegnen. Naechster Schritt: Sattelzug-Lauf ([[blueprint-sattelzug-plan]])
-auf Kevins Startwort.
+Stand 11.11. 15:05: Test-Mod NCBlueprintTest = Staging (kopiert 00:51 auf Kevins Ja): Festung 3b + Basis Leuchtfeuer + Burg
+Leuchtfeuer, per `NCBlueprint_Wahl("basis"|"burg")` baubar, NICHTS gespielt. Kein Workflow, kein Timer offen.
+**Vor Kevins Test zuerst:** Turret-Naht reparieren (NCTurretTest am 11.11. umgebaut: `T.PlacePair(sq, lv, ow, s, u)`,
+`T.RequestPlace` weg; `_arbeit/blueprint/b1/fundstellen_pruefen.py` 6 Fehlschlaege), NPC-Crew-Fundstellen neu pruefen (NPC Crew war
+15:02 "halb"), bugwatch mitlaufen lassen, Kevin an "Base area size" 50 erinnern ([[blueprint-leuchtfeuer-designs]]).
 
-**Why:** Ein anderer Account hat diesen Gespraechsverlauf nicht; ohne die Uebergabe wuerde er Staende verwechseln oder die
-Vogelscheuchen-Falle wiederholen.
+**Why:** Ein anderer Account hat den Gespraechsverlauf nicht; ohne Uebergabe wuerde er mit kaputter Turret-Naht testen lassen
+oder Staende verwechseln.
 
-**How to apply:** Neue Sitzung im Blueprint-Projekt: zuerst UEBERGABE.md lesen, Kevin nach seinen offenen Antworten fragen (Abschnitt 5
-dort), nichts in die Test-Mod ohne sein Ja, vor jedem Workflow get_usage. Siehe [[blueprint-kevins-zielbild]].
+**How to apply:** Neue Sitzung im Blueprint-Projekt: zuerst UEBERGABE.md Abschnitt 0 lesen, dann Kevin nach seinen offenen
+Antworten fragen (0.4), nichts in die Test-Mod ohne sein Ja, vor jedem Workflow get_usage. Siehe [[blueprint-kevins-zielbild]].

@@ -1,4 +1,4 @@
-- [UEBERGABE 10.11. -- zuerst lesen](blueprint-uebergabe-stand.md) — drei Staende (Test-Mod 2b / Staging 3b / Burg-Plan V2), naechster Schritt Sattelzuege, Testliste: blueprint/UEBERGABE.md
+- [UEBERGABE 11.11. -- zuerst lesen](blueprint-uebergabe-stand.md) — Test-Mod = Festung 3b + Leuchtfeuer (ungespielt); zuerst Turret-Naht reparieren, dann Testreihenfolge: blueprint/UEBERGABE.md Abschnitt 0
 - [Leuchtfeuer-Designs 10.11.2026](blueprint-leuchtfeuer-designs.md) — Kevins zwei neue Plaene (Basis + Burg, 100x80); seit 11.11. 00:51 per Befehl in der Test-Mod (ungespielt): blueprint/leuchtfeuer/STAND.md
 - [Kevins Zielbild Starter-Basis](blueprint-kevins-zielbild.md) — Festung mit 4 Toren + Turrets, Tuerme, 20 Betten, Holzplatz, Teich; viele kleine Stapel, freie Durchgaenge
 - [Vorschau-Renders fuer 3D-Modelle](blueprint-vorschau-renders.md) — Spielwinkel und Massstab fuer Blender-Renders in vorschau.py
