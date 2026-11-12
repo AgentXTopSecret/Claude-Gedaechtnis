@@ -211,3 +211,8 @@ in jedem der beiden Ordner landet am richtigen Zweig). Nie auf einen fremden Zwe
   fuer Workshop-Screenshots, spaeter Builder-Job mit Blueprints. **Zuerst `blueprint\UEBERGABE.md`** (Uebergabe 10.11. ~16:35 fuer Kevins
   anderen Account: drei Staende -- Festung 2b in der Test-Mod, Festung 3b mit Stufe 3 + Generator nur im Staging, Ritterburg V2 nur
   Plan --, als Naechstes Sattelzuege nach `blueprint\SATTELZUG_PLAN.md` auf Kevins Startwort, Testliste, offene Fragen), dann `STAND.md`.
+- **Nachtrag zu Abschnitt 0 -- achte Sprache DE (12.11.2026, Turret-Sitzung):** NPC Crew hat seit v3.14.75 (555bc90f) `Translate/DE`
+  (UTF-8 mit echten Umlauten, ohne BOM, LF). Uebernahme-Skripte mit fester Liste von SIEBEN Sprachen melden DE als Fehler. Kevin 12.11.
+  fuer Turret: *"Ja, auch Deutsch"* -- Turret-Texte kommen in ACHT Sprachen (Vorbild: `turret/DE_bericht.md`, Pruefskript
+  `_arbeit/turret/de/texte_de_pruefen.py`: gleiche Schluessel und Platzhalter wie EN, nur Zeichen, die Vanilla-DE benutzt). Die anderen
+  Projekte fragen Kevin fuer ihre Texte oder folgen diesem Vorbild; dann LANGS und die Pruefskripte um DE erweitern.
