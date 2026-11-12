@@ -216,3 +216,9 @@ in jedem der beiden Ordner landet am richtigen Zweig). Nie auf einen fremden Zwe
   fuer Turret: *"Ja, auch Deutsch"* -- Turret-Texte kommen in ACHT Sprachen (Vorbild: `turret/DE_bericht.md`, Pruefskript
   `_arbeit/turret/de/texte_de_pruefen.py`: gleiche Schluessel und Platzhalter wie EN, nur Zeichen, die Vanilla-DE benutzt). Die anderen
   Projekte fragen Kevin fuer ihre Texte oder folgen diesem Vorbild; dann LANGS und die Pruefskripte um DE erweitern.
+
+**Nachtrag 12.11.2026 -- Deutsch als achte Sprache (Kevin: "meine mod unterstuetzt jz deutsch brauchen wir das dann auch in der mod hier?" -> "ja"):** NPC Crew hat jetzt
+`42/media/lua/shared/Translate/DE/`. Ab sofort gilt Abschnitt 0.1 mit **ACHT** Sprachen: EN, PTBR, RU, KO, ES, CN, FR **und DE** (DE nur Zeichen,
+die Vanilla-DE selbst benutzt; Platzhalter/Prozent wie NPC Crews `langcheck`, einzelnes `%` in Sandbox-Tooltips als `%%`). Uebernahme-Skripte
+fuehren DE wie die anderen Sprachen zusammen. Modelle-Sitzung: nachgeruestet am 12.11. (Lauf `de-nachruesten`); Turret, Baer, Blueprint ziehen
+bei sich nach.
