@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 4d678754-ad1e-4e32-b3c7-d96bab2275b2
-  modified: 2026-11-13T14:53:37.154Z
+  modified: 2026-11-13T15:54:23.472Z
 ---
 
 Kevin am 13.11.2026 ~15:52, direkt nachdem die Bench in die Test-Mod kopiert war: *"ich will das es auch in mp funktioniert"*.
@@ -16,6 +16,9 @@ Stand 13.11. 15:55: nichts gebaut, kein Lauf gestartet. Vorschlag an Kevin: Lauf
 nur lesen + `blueprint\MP_PLAN.md`), danach Lauf 2 "MP-Bau" (etwa 7 Agenten). Meine Vorgaben, solange Kevin nichts anderes sagt:
 gebaut wird auf dem Server (Host-Spiel und dedizierter Server), nur Admins loesen aus, der SP-Weg bleibt unveraendert, alles bleibt
 Testhilfe. Erste Sichtung und offene Punkte: `blueprint\UEBERGABE.md` 0.0 (Absatz "NEUER AUFTRAG"). Siehe [[blueprint-uebergabe-stand]].
+
+Kevins Entscheidung 13.11. ~16:35 auf "Wer soll im Mehrspieler den Baubefehl nutzen duerfen?": **"nur admin"** -- moderator und alle
+anderen Rollen still ablehnen (kein Kick), der Server prueft. Fuer alle Spieler gedacht ist spaeter nur Phase 2 (Builder-Job mit Material).
 
 **Why:** Kevin betreibt NPC Crew auch auf einem MP-Server (13.11.); seine Regel ist "SP UND MP" (Werkstatt-CLAUDE.md Abschnitt 4).
 
