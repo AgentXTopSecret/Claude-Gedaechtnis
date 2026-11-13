@@ -1,2 +1,2 @@
-- [Programme fuer Kevin losgeloest starten](programme-fuer-kevin-losgeloest-starten.md) — TempBar/NetSpeedBar in Desktop\Programme von Claude; aus der Claude-Shell gestartet haengen sie an der Sitzung, Breakaway noetig.
+- [Programme fuer Kevin losgeloest starten](programme-fuer-kevin-losgeloest-starten.md) — TempBar/NetSpeedBar/PZStart in Desktop\Programme von Claude; aus der Claude-Shell gestartet haengen sie an der Sitzung, Breakaway noetig.
 - [Wo der Stand steht](wo-der-stand-steht.md) — bei "was steht an": Uebergabe-Dateien je Projekt lesen (NPC Crew, Turret, Baer, Modelle, Blueprint), Pfade dort.
