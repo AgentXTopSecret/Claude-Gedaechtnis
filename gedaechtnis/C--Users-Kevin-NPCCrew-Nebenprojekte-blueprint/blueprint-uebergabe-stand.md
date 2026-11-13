@@ -13,6 +13,10 @@ soll und wo es weiter geht"; 13.11. neue Blueprint-Sitzung auf dem zweiten Konto
 `C:\Users\Kevin\NPCCrew-Nebenprojekte\blueprint\UEBERGABE.md` **Abschnitt 0** (0.0 = Stand 13.11., darunter 11.11.), Belege
 `blueprint\NAEHTE.md` 8, Verlauf `blueprint\leuchtfeuer\STAND.md`.
 
+**13.11.2026 abends: alle drei Entwuerfe im SP GESPIELT UND ABGENOMMEN** (Basis 26485/0 Fehler, 17+ Betten; Burg 36442/0, Crew
+12 von 12; Festung 16272/0, Gespanne gekuppelt -- Kevin: "mega geil", "wie beim anderen", "klappt wie immer"). Naechstes:
+Kleinkram im Staging, dann MP-Bau-Lauf 2 auf Kevins Startwort (UEBERGABE 0.0).
+
 Stand 13.11. 15:48: Test-Mod NCBlueprintTest = Staging `b1\mod\NCBlueprintTest` (Festung 3b + Basis Leuchtfeuer + Burg Leuchtfeuer,
 per `NCBlueprint_Wahl("basis"|"burg")` baubar, NICHTS gespielt). Am 13.11. 15:48 auf Kevins "Ja, kopieren" die nachgezogene Bench
 kopiert (sha1 01b6b070, Sicherung `NCBlueprintTest_2026-11-13_154815_vorher/_nachher.zip`): Blickrichtung als 6. Argument an

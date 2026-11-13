@@ -1,4 +1,4 @@
-- [UEBERGABE 13.11. -- zuerst lesen](blueprint-uebergabe-stand.md) — Bench auf Turret b9859e8 nachgezogen und 13.11. 15:48 kopiert (Test-Mod = Staging, ungespielt); als Naechstes Kevins Test: blueprint/UEBERGABE.md Abschnitt 0.0 und 0.3
+- [UEBERGABE 13.11. -- zuerst lesen](blueprint-uebergabe-stand.md) — 13.11. abends Basis, Burg und Festung im SP gespielt und abgenommen (Test-Mod = Staging); naechstes Kleinkram + MP-Bau-Lauf 2: blueprint/UEBERGABE.md 0.0
 - [MP-Auftrag 13.11.2026](blueprint-mp-auftrag.md) — Kevin: Baubefehl soll auch im Mehrspieler laufen; noch nicht gebaut, Forschungs-Lauf dann Bau-Lauf, Start nur auf sein Wort
 - [Leuchtfeuer-Designs 10.11.2026](blueprint-leuchtfeuer-designs.md) — Kevins zwei neue Plaene (Basis + Burg, 100x80); seit 11.11. 00:51 per Befehl in der Test-Mod (ungespielt): blueprint/leuchtfeuer/STAND.md
 - [Kevins Zielbild Starter-Basis](blueprint-kevins-zielbild.md) — Festung mit 4 Toren + Turrets, Tuerme, 20 Betten, Holzplatz, Teich; viele kleine Stapel, freie Durchgaenge
