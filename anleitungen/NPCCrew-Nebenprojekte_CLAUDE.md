@@ -222,3 +222,9 @@ in jedem der beiden Ordner landet am richtigen Zweig). Nie auf einen fremden Zwe
 die Vanilla-DE selbst benutzt; Platzhalter/Prozent wie NPC Crews `langcheck`, einzelnes `%` in Sandbox-Tooltips als `%%`). Uebernahme-Skripte
 fuehren DE wie die anderen Sprachen zusammen. Modelle-Sitzung: nachgeruestet am 12.11. (Lauf `de-nachruesten`); Turret, Baer, Blueprint ziehen
 bei sich nach.
+
+**Nachtrag 13.11.2026 -- reserviertes Sprite (Turret-Sitzung, Kollision, `turret/NAEHTE.md` #88):** Das aufgestellte Turret sperrt seine
+Kachel mit einem unsichtbaren Objekt des Vanilla-Sprites `furniture_tables_high_02_40` (Ersatz `location_restaurant_pileocrepe_01_39`); die
+Turret-Mod macht zur Laufzeit JEDES Objekt dieses Sprites fest (`solidtrans`). Darum fuer alle Nebenprojekte und fuer NPC Crew: diesen
+Sprite nie setzen und nie `MapObjects.OnLoadWithSprite` / `OnNewWithSprite` darauf registrieren. (Blueprint nutzt aus demselben Satz heute
+nur `_0/_1/_2` -- so lassen.)
