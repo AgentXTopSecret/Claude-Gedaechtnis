@@ -1,0 +1,1 @@
+- [Wo der Stand steht](wo-der-stand-steht.md) — bei "was steht an": Uebergabe-Dateien je Projekt lesen (NPC Crew, Turret, Baer, Modelle, Blueprint), Pfade dort.
