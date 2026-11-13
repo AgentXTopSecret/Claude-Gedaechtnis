@@ -5,14 +5,17 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 4d678754-ad1e-4e32-b3c7-d96bab2275b2
-  modified: 2026-11-13T15:54:23.472Z
+  modified: 2026-11-13T16:16:59.972Z
 ---
 
 Kevin am 13.11.2026 ~15:52, direkt nachdem die Bench in die Test-Mod kopiert war: *"ich will das es auch in mp funktioniert"*.
 Gemeint (meine Lesart): der Baubefehl `NCBlueprint_Bau()` der Test-Mod NCBlueprintTest soll auch im Mehrspieler eine Basis
 hinstellen. Bis dahin war MP bewusst aus (`tor()` in `NCBlueprintBench.lua`).
 
-Stand 13.11. 15:55: nichts gebaut, kein Lauf gestartet. Vorschlag an Kevin: Lauf 1 "MP-Forschung und Plan" (3 Agenten auf Opus,
+Stand 13.11. ~17:25: Lauf 1 (Forschung + Plan, 6 Agenten) fertig -> `blueprint\MP_PLAN.md` (Weg H, Bench-Kern nach shared, neue
+Server- und MP-Client-Datei, Bau-Lauf 2 mit 9 Agenten, Fragen F2-F15 mit Vorgaben). Nichts gebaut. Lauf 2 erst nach Kevins SP-Test,
+nach dem Turret-T4d-Einbau und auf sein Startwort.
+(Frueherer Stand 15:55: nichts gebaut, kein Lauf gestartet.) Vorschlag an Kevin: Lauf 1 "MP-Forschung und Plan" (3 Agenten auf Opus,
 nur lesen + `blueprint\MP_PLAN.md`), danach Lauf 2 "MP-Bau" (etwa 7 Agenten). Meine Vorgaben, solange Kevin nichts anderes sagt:
 gebaut wird auf dem Server (Host-Spiel und dedizierter Server), nur Admins loesen aus, der SP-Weg bleibt unveraendert, alles bleibt
 Testhilfe. Erste Sichtung und offene Punkte: `blueprint\UEBERGABE.md` 0.0 (Absatz "NEUER AUFTRAG"). Siehe [[blueprint-uebergabe-stand]].
