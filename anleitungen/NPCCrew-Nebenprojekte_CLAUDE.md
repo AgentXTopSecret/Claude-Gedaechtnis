@@ -228,3 +228,9 @@ Kachel mit einem unsichtbaren Objekt des Vanilla-Sprites `furniture_tables_high_
 Turret-Mod macht zur Laufzeit JEDES Objekt dieses Sprites fest (`solidtrans`). Darum fuer alle Nebenprojekte und fuer NPC Crew: diesen
 Sprite nie setzen und nie `MapObjects.OnLoadWithSprite` / `OnNewWithSprite` darauf registrieren. (Blueprint nutzt aus demselben Satz heute
 nur `_0/_1/_2` -- so lassen.)
+
+**Nachtrag 14.11.2026 -- Blueprint-Stand fuer jedes Konto (Blueprint-Sitzung; Kevin: *"merk dir alles das es jeder account lesen kann was
+ich noch testen muss und so"*):** Der Blueprint-Zeiger in Abschnitt 9 ("Uebergabe 10.11. ... drei Staende") ist ueberholt. Stand 14.11.:
+SP aller drei Entwuerfe am 13.11. gespielt und abgenommen, Mehrspieler fertig und seit 14.11. 16:17 in `NCBlueprintTest` (ungespielt).
+**Was Kevin noch testen muss und was offen ist: `blueprint\UEBERGABE.md` Abschnitt 00** (MP-Test nach `blueprint\b1\TEST_fuer_kevin_MP.md`,
+kurzer SP-Check, offene Entscheidungen). Jede Sitzung, die Kevin dazu antwortet, liest dort nach.

@@ -1,3 +1,4 @@
+- [Was Kevin noch testen muss](blueprint-kevin-testliste.md) — MP-Test Burg, kurzer SP-Check, optional zweites Konto; volle Liste blueprint/UEBERGABE.md Abschnitt 00
 - [UEBERGABE 14.11. -- zuerst lesen](blueprint-uebergabe-stand.md) — SP am 13.11. abgenommen; 14.11. 16:17 MP fertig und in der Test-Mod (Test-Mod = Staging, MP ungespielt): blueprint/UEBERGABE.md 0.00
 - [MP-Auftrag 13./14.11.2026](blueprint-mp-auftrag.md) — Blueprint im Mehrspieler: Lauf 2 fertig, Abnahme AUFFAELLIG 0, kopiert 14.11. 16:17; naechstes Kevins MP-Test (b1/TEST_fuer_kevin_MP.md), dann 1b
 - [Leuchtfeuer-Designs 10.11.2026](blueprint-leuchtfeuer-designs.md) — Kevins zwei neue Plaene (Basis + Burg, 100x80); seit 11.11. 00:51 per Befehl in der Test-Mod (ungespielt): blueprint/leuchtfeuer/STAND.md
