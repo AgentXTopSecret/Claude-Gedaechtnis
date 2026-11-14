@@ -1,5 +1,5 @@
 - [UEBERGABE 13.11. -- zuerst lesen](blueprint-uebergabe-stand.md) — 13.11. abends Basis, Burg und Festung im SP gespielt und abgenommen (Test-Mod = Staging); naechstes Kleinkram + MP-Bau-Lauf 2: blueprint/UEBERGABE.md 0.0
-- [MP-Auftrag 13.11.2026](blueprint-mp-auftrag.md) — Blueprint im Mehrspieler: Plan fertig (nur admin), Bau-Lauf 2 (9 Agenten) startbereit, von Kevin auf spaeter verschoben -- nur auf sein neues Wort
+- [MP-Auftrag 13./14.11.2026](blueprint-mp-auftrag.md) — Blueprint im Mehrspieler: 14.11. Kevin "so mach die mod fertig" -> Lauf 2 laeuft (9 Agenten); Stand UEBERGABE 0.00
 - [Leuchtfeuer-Designs 10.11.2026](blueprint-leuchtfeuer-designs.md) — Kevins zwei neue Plaene (Basis + Burg, 100x80); seit 11.11. 00:51 per Befehl in der Test-Mod (ungespielt): blueprint/leuchtfeuer/STAND.md
 - [Kevins Zielbild Starter-Basis](blueprint-kevins-zielbild.md) — Festung mit 4 Toren + Turrets, Tuerme, 20 Betten, Holzplatz, Teich; viele kleine Stapel, freie Durchgaenge
 - [Vorschau-Renders fuer 3D-Modelle](blueprint-vorschau-renders.md) — Spielwinkel und Massstab fuer Blender-Renders in vorschau.py
