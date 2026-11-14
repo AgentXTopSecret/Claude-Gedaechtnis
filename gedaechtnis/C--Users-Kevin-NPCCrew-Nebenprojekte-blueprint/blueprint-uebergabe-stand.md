@@ -1,6 +1,6 @@
 ---
 name: blueprint-uebergabe-stand
-description: "Uebergabe Blueprint, Stand 13.11.2026 15:48: Bench auf Turret b9859e8 nachgezogen und in die Test-Mod kopiert (Test-Mod = Staging, ungespielt, alle Pruefer gruen); zuerst blueprint/UEBERGABE.md Abschnitt 0.0"
+description: "Uebergabe Blueprint, Stand 14.11.2026 16:17: SP von Kevin abgenommen (13.11.), MP fertig und in der Test-Mod (Test-Mod = Staging, MP ungespielt); zuerst blueprint/UEBERGABE.md Abschnitt 0.00"
 metadata:
   node_type: memory
   type: project
@@ -16,6 +16,8 @@ soll und wo es weiter geht"; 13.11. neue Blueprint-Sitzung auf dem zweiten Konto
 **13.11.2026 abends: alle drei Entwuerfe im SP GESPIELT UND ABGENOMMEN** (Basis 26485/0 Fehler, 17+ Betten; Burg 36442/0, Crew
 12 von 12; Festung 16272/0, Gespanne gekuppelt -- Kevin: "mega geil", "wie beim anderen", "klappt wie immer"). Naechstes:
 Kleinkram im Staging, dann MP-Bau-Lauf 2 auf Kevins Startwort (UEBERGABE 0.0).
+
+**14.11. 16:17:** MP-Bau fertig und kopiert, Test-Mod wieder = Staging (Einzelheiten [[blueprint-mp-auftrag]]).
 
 Stand 13.11. 15:48: Test-Mod NCBlueprintTest = Staging `b1\mod\NCBlueprintTest` (Festung 3b + Basis Leuchtfeuer + Burg Leuchtfeuer,
 per `NCBlueprint_Wahl("basis"|"burg")` baubar, NICHTS gespielt). Am 13.11. 15:48 auf Kevins "Ja, kopieren" die nachgezogene Bench
